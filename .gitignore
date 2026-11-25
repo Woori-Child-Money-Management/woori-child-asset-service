@@ -1,0 +1,120 @@
+# ========================================
+# 1. Environment Variables & Secrets
+# ========================================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+application-local.yml
+application-local.yaml
+application-local.properties
+application-secret.yml
+application-secret.yaml
+application-secret.properties
+
+# ========================================
+# 2. Java / Spring Boot / Gradle / Maven
+# ========================================
+.gradle/
+build/
+target/
+out/
+*.class
+*.jar
+*.war
+
+# Gradle / Maven Wrapper 유지
+!**/gradle/wrapper/gradle-wrapper.jar
+!**/.mvn/wrapper/maven-wrapper.jar
+
+# ========================================
+# 3. React / Node.js
+# ========================================
+node_modules/
+dist/
+.next/
+.vite/
+coverage/
+*.tsbuildinfo
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ========================================
+# 4. Python / AI Agent
+# ========================================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.coverage
+
+# ========================================
+# 5. AWS / Terraform
+# ========================================
+.aws/
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# ========================================
+# 6. Database / Local Data
+# ========================================
+*.db
+*.sqlite
+*.sqlite3
+*.sql.gz
+mysql-data/
+postgres-data/
+redis-data/
+backups/
+
+# ========================================
+# 7. IDE / Editor
+# ========================================
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+.factorypath
+.springBeans
+
+# ========================================
+# 8. Operating System
+# ========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ========================================
+# 9. Logs & Temporary Files
+# ========================================
+logs/
+*.log
+*.tmp
+*.swp
+*.swo
