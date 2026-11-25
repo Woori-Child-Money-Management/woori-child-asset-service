@@ -1,0 +1,2 @@
+-- Establish the Flyway history for the empty application schema.
+-- Add business tables in subsequent versioned migrations once the domain is defined.
